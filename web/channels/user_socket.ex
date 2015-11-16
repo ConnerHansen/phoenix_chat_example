@@ -1,7 +1,8 @@
 defmodule Chat.UserSocket do
   use Phoenix.Socket
 
-  channel "rooms:*", Chat.RoomChannel
+  # Add support for our box model stuff
+  channel "box_model:*", Modeller.BoxChannel
 
   transport :websocket, Phoenix.Transports.WebSocket
   transport :longpoll, Phoenix.Transports.LongPoll
