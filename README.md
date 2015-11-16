@@ -1,4 +1,5 @@
-# Simple Chat Example
+# Simple Synchronized Box Drawing
+> Based on the Chat example by Chris McCord
 > Built with the [Phoenix Framework](https://github.com/phoenixframework/phoenix)
 
 To start your new Phoenix application you have to:
